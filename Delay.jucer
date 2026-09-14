@@ -6,6 +6,10 @@
               companyName="TranquilDSP">
   <MAINGROUP id="ReRUSN" name="Delay">
     <GROUP id="{FDD774D8-05F8-BD21-1BF1-ED2EB0D9000E}" name="Source">
+      <FILE id="O3gObb" name="CustomLookAndFeel.h" compile="0" resource="0"
+            file="Source/CustomLookAndFeel.h"/>
+      <FILE id="JDo07z" name="CustomLookAndFeel.cpp" compile="1" resource="0"
+            file="Source/CustomLookAndFeel.cpp"/>
       <FILE id="DGx8CE" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp"/>
       <FILE id="EiRTjX" name="PluginProcessor.h" compile="0" resource="0"
@@ -14,6 +18,7 @@
             file="Source/PluginEditor.cpp"/>
       <FILE id="gkThmr" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
     </GROUP>
+    <FILE id="evw0aD" name="logo.svg" compile="0" resource="1" file="Source/logo.svg"/>
   </MAINGROUP>
   <MODULES>
     <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>

@@ -3,6 +3,7 @@
 
 #include <JuceHeader.h>
 #include "PluginProcessor.h"
+#include "CustomLookAndFeel.h"
 #include "juce_audio_processors_headless/juce_audio_processors_headless.h"
 
 //==============================================================================
@@ -39,6 +40,7 @@ private:
     std::unique_ptr<juce::AudioProcessorValueTreeState::SliderAttachment> delayTimeAttachment;
     std::unique_ptr<juce::AudioProcessorValueTreeState::SliderAttachment> feedbackAttachment;
     std::unique_ptr<juce::AudioProcessorValueTreeState::SliderAttachment> dryWetAttachment;
+    std::unique_ptr<CustomLookAndFeel> customLookAndFeel;
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (DelayAudioProcessorEditor)
 };
